@@ -1,6 +1,294 @@
-<html>
-  <body>
-    Server Error Not Set Up
-    This page will be set up on Wednesday 19th July 2023 if it is Wednesday 19th July 2023 and this is not working please email ServiceDeskPlingifyPlug@outlook.com to report the incident.
-  </body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy, Terms & Rules</title>
+    <link rel="icon" type="image/png"  href="Pligny.png">
+</head>
+<body onload="checkCookie()">
+    <div class="img">
+      <img src="Plignify.png" alt="Report to staff.">
+    </div>
+    <div class="TEXT">
+    <h2 style="color: #fff;">PlingifyPlug Privacy, Terms & Rules</h2>
+     <button class="btn">
+    <span class="btn-text-one"> PlingifyPlug-Hub</span>
+    <span class="btn-text-two" onclick="location.href = 'https://plingifyplug.github.io/Hub/';" id="myButton" class="btn">Click Here</span>
+</button>
+  </button>
+   <button class="btn">
+    <span class="btn-text-one"> ⟳ Reload Page</span>
+    <span class="btn-text-two" onclick="window.location.reload();" onclick="window.location.href='/';" class="btn">Click Here</span>
+</button>
+  </button>
+
+
+
+
+  <div class="MainBox">
+
+<h2>-PlingifyPlug Privacy</h2>
+<h4>These terms of service ("Terms", "Agreement") are an agreement between the website ("Website operator", "us", "we" or "our") and you ("User", "you" or "your"). This Agreement sets forth the general terms and conditions of your use of this website and any of its products or services (collectively, "Website" or "Services").
+
+
+
+You agree to:
+
+You will not exploit our software, operating systems, applications, products or webpages. Doing so will result in a temporary or permanent ban.
+
+You will not abuse staff. Doing so will result in a temporary or permanent ban.
+
+You agree that if you break theses T/S if you do you agree that we will and the right to ban you from all of our services and products temporary or indefinitely.
+
+You agree that we offer no refunds on donations, paid services or brought products.
+
+You agree that we can cancel subscriptions with no refunds if you break these T/S and you can be banned temporarily or indefinitely for not paying for your subscription without contacting staff.
+
+You can cancel subscriptions however we recommend that you contact staff before doing so as you may be banned for exploiting the site for using paid services without paying.
+
+You agree that using cracked or pirated versions of our software will result in a permanent ban without appeal.
+
+You agree that we offer you the right to appeal to temporary bans and some permanent bans.
+
+You agree that our software is virus free and if you get a virus from our software we are not held responsible.
+
+If you device breaks or stop working, gets slow or gets hacked it is not our fault and we can not be help liable.
+
+You agree that you if you are banned with a subscription it will be cancel with no refund, nor will a refund on other free/paid services.
+
+You agree that anything you download via our browser is your reasonability and we are not help liable.</h4>
+
+    <h2>-Links to other websites</h2>
+    <h4>Although this Website may be linked to other websites, we are not, directly or indirectly, implying any approval, association, sponsorship, endorsement, or affiliation with any linked website, unless specifically stated herein.
+
+You should carefully review the legal statements and other conditions of use of any website which you access through a link from this Website. Your linking to any other off-site pages or other websites is at your own risk. This also includes RammerHead Browser/youtube trailers as its an iframe is counts as an external link you yous the links at your own risk and we can not be held liable from anything cuased by the external links</h4>
+<h2>-Use of Cookies</h2>
+<h4>Website may use cookies to personalise and facilitate maximum navigation of the User by this site. The User may configure his / her browser to notify and reject the installation of the cookies sent by us.</h4>
+</div>
+
+
+
+<center> <h4 style="color: #fff;">Brought to you by PlingifyPlug</h4> 
+ <h3 style="color: #fff;"> PlingifyPlug© </h3> 
+
+<div style="color: #fff;" id = "digital-clock"> </div> <p style="color: #fff;"> 2023</p>
+
+
+</center>
+
+<script src="//code.tidio.co/fqvdg3bbolzxb9xf9mig2yfqpuaj5wt1.js" async></script>
+
+
+<div class="popup-container">
+  <div class="popup-box">
+      <p>Please remember to never share your <b>personal information, passwords, address, bank details, emails or phone numbers</b> on this site unless a staff member requires it in the Tidio Live Chat Panel</p>
+  </div>
+</div>
+
+
+</body>
+<style>
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+
+    z-index: 999;
+    display: none;
+    transition: opacity 0.3s; /* Add a transition for fading */
+}
+
+.popup-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.popup-box p {
+    margin: 0;
+}
+
+.btn {
+  width: 90px;
+  height: 35px;
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.btn span {
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.btn:hover .btn-text-two {
+  top: 50%;
+}
+
+.MainBox{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+    .TEXT{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #000000;
+    }
+
+    body {
+      background: #000;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #000000;
+
+}
+
+    img{
+    border-radius: 15px;
+    width: 65px;
+    height: 65px;
+}
+
+a:link {
+  color: rgb(250, 250, 250);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+<SCRIPT language="JavaScript"> 
+
+    function Time() {
+    
+     // Creating object of the Date class
+     var date = new Date();
+    
+     // Get current hour
+     var hour = date.getHours();
+     // Get current minute
+     var minute = date.getMinutes();
+     // Get current second
+     var second = date.getSeconds();
+    
+     // Variable to store AM / PM
+     var period = "";
+    
+     // Assigning AM / PM according to the current hour
+     if (hour >= 12) {
+     period = "PM";
+     } else {
+     period = "AM";
+     }
+    
+     // Converting the hour in 12-hour format
+     if (hour == 0) {
+     hour = 12;
+     } else {
+     if (hour > 12) {
+     hour = hour - 12;
+     }
+     }
+    
+     // Updating hour, minute, and second
+     // if they are less than 10
+     hour = update(hour);
+     minute = update(minute);
+     second = update(second);
+    
+     // Adding time elements to the div
+     document.getElementById("digital-clock").innerText = hour + " : " + minute + " : " + second + " " + period;
+    
+     // Set Timer to 1 sec (1000 ms)
+     setTimeout(Time, 1000);
+    }
+    
+     // Function to update time elements if they are less than 10
+     // Append 0 before time elements if they are less than 10
+    function update(t) {
+     if (t < 10) {
+     return "0" + t;
+     }
+     else {
+     return t;
+     }
+    }
+    
+    Time();
+
+    document.addEventListener("DOMContentLoaded", function() {
+    // Select the popup container
+    const popupContainer = document.querySelector(".popup-container");
+
+    // Show the popup when the page loads
+    popupContainer.style.display = "block";
+
+    // Add a delay of 3 seconds before starting the fade-out animation
+    setTimeout(function() {
+        // Set the opacity to 0 for a fade-out effect
+        popupContainer.style.opacity = "0";
+        
+        // Hide the popup after the animation completes (0.3 seconds)
+        setTimeout(function() {
+            popupContainer.style.display = "none";
+        }, 300);
+    }, 3000); // 3,000 milliseconds = 3 seconds
+});
+    </SCRIPT>
 </html>
